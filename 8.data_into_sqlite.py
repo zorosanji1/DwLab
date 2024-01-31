@@ -1,4 +1,4 @@
- import sqlite3 
+import sqlite3 
 conn = sqlite3.connect('geeks2.db') 
 cursor = conn.cursor() 
 table ="""CREATE TABLE STUDENT(NAME VARCHAR(255), CLASS VARCHAR(255), 
